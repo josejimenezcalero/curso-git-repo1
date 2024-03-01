@@ -23,7 +23,8 @@ public class CreateTextFile {
         {
             try {
                 output = new Formatter(filename);
-                
+                System.out.println("This is a test.");
+                //kkkk
             } catch (FileNotFoundException fileNotFoundException) {
                 System.err.println("Error");
             }
