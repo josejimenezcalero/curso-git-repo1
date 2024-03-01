@@ -25,7 +25,7 @@ public class CreateTextFile {
                 output = new Formatter(filename);
                 System.out.println("This is a test.");
                 System.out.println("This is another test");
-                //kkkk
+                  System.out.println("This is another test");
             } catch (FileNotFoundException fileNotFoundException) {
                 System.err.println("Error");
             }
